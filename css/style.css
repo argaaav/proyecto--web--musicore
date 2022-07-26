@@ -1,0 +1,360 @@
+.bodyBody{
+    background-color: #edede9;
+}
+
+.imagen {
+    height: 250px;
+}
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+
+}
+
+
+.header {
+
+    overflow: hidden;
+    text-align: left;
+    line-height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right,black
+     , #333533 );
+    padding-top: 10px;
+    padding-bottom: 10px;    animation-name: mianimacion;
+    animation-duration: 3s;
+}
+.lista__header {
+    list-style-type: none;
+    font-size: 200%;
+    line-height: 100%;
+    position: static;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+
+
+    
+}
+
+.textoFooter {
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Oswald', sans-serif;
+}
+.enlaces {
+    font-size: 150%;
+    line-height: 10%;
+}
+.enlacesdos {
+    font-size: 150%;
+    text-align: right;
+    line-height: 1%;
+}
+.textoAlbum {
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    align-items: center;
+    padding-left: 90px;
+}
+
+.albumes {
+    background-color: #a7aeb4;
+    text-align: center;
+    display: grid;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px #36393b solid;
+    align-items: center;
+}
+.imagenesPortadas {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 90px;
+    padding-bottom: 20px;
+    
+}
+#coldplay {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 250px;
+    transform: scale(0.8, 0.8);
+
+
+}
+
+
+
+#billie {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 250px;
+    transform: scale(0.8, 0.8);
+
+
+}
+
+#foofighters {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 250px;
+    transform: scale(0.8, 0.8);
+
+
+}
+#taylor {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 250px;
+    transform: scale(0.8, 0.8);
+
+
+}
+
+.primerLinea {
+    font-weight: bolder;
+    color: #393e41;
+}
+
+.contenedoruno {
+    background-color: #7a8691;
+    border: 2px #393e41 dotted;
+    padding-top: 10px;
+}
+
+.noticias__recientes {
+    text-align: left;
+    font-size: 200%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.primernoticia {
+    background-color: #a7aeb4;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;;
+    padding-right: 30px;
+    border: 2px #36393b solid;
+    display: grid;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-bottom: 20px;
+    align-content: center;
+    
+
+}
+
+.noticiaLali {
+    text-align: right;
+    padding-left: 40px;
+    padding-right: 30px;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border: 0px #a7aeb4 none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-bottom: 20px;
+    align-content: center;
+}
+.imagenLali {
+    height: 350px;
+    display: flex;
+    align-content: center;
+}
+
+#textolali {
+    border: 0px #a7aeb4 none;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+#nombrelali {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.botonLali {
+    color: #8a8a8c;
+    font-size: 20px;
+    border: 2px #36393b outset;
+}
+#tituloranking {
+    font-size: 30px;
+}
+#primavera {
+    text-align: right;
+    margin-top: -500px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+}
+.ranking {
+    border: 5px #336699 dashed;
+    overflow: hidden;
+    padding: auto;
+    background-color: #d6dcda;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 50px;
+    margin-left: 100px;
+    margin-right: 750px;
+    margin-bottom: 80px;
+    padding-right: -50px;
+    font-size: 20px;
+    
+
+}
+
+#sectorbordes {
+    border: 0px none #c4c5c7;
+    align-items: center;
+}
+#gardel {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 30px;
+    font-size: 200%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border: 0px #a7aeb4 none;
+}
+.videos{
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.segundoVideo {
+    text-align: right;
+    margin-top: -315px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+#video {
+    border: 2px #336699 dotted;
+}
+#dillom {
+    text-align: center;
+    margin-left: -100px;
+
+}
+.noticiasTitulo {
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.agendaPrimerFlier {
+    border: 0px #8a8a8c none;
+    margin-left: 100px;
+    display: grid;
+    
+}
+
+#imagenesAgenda {
+    display: block;
+    align-items: stretch;
+}
+.imagenrosalia {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: -850px;
+}
+
+.imagenfito {
+    margin-left: -10px;
+}
+
+.imagenkuelgue {
+    margin-left: -10px;
+    margin-top: 20px;
+}
+
+.imagenmonlaferte {
+    margin-left: -10px;
+    margin-top: 70px;
+}
+
+.imagennathy {
+    margin-left: -15px;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+.imagenprimavera {
+    text-align: right;
+    margin-top: -850px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+.imagengreenday {
+    text-align: center;
+    margin-top: 280px;
+}
+
+.suscribite {
+    border: #393e41 2px none;
+    text-align: center;
+    font-size: 20px;
+    background-color: #a7aeb4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-right: 90px;
+    
+}
+.boton {
+    color: #8a8a8c;
+    font-size: 20px;
+    border: 2px #36393b outset;
+}
+.textosuscribite {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.mapa {
+    margin-left: 80px;
+    margin-bottom: 280px;
+}
+.textodireccion {
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-right: 140px;
+    margin-top: -590px;
+    margin-bottom: 280px;
+
+}
+
+.textoTelefono {
+    margin-right: 258px;
+}
+.textoEmail {
+    margin-right: 163px;
+}
